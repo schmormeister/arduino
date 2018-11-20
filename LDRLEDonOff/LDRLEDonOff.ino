@@ -9,10 +9,9 @@ void setup() {
 }
 
 void loop() {
-  val = digitalRead(8
-  );
+  val = digitalRead(7); 
   if(val == LOW){
-    digitalWrite(LED, HIGH);
+    digitalWrite(LED, HIGH); 
   } else {
     digitalWrite(LED, LOW);
   }
